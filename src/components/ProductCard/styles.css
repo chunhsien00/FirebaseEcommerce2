@@ -1,0 +1,35 @@
+.productCard {
+  max-width: 60.0rem;
+  margin: 0 auto 10.0rem;
+}
+
+.productCard .hero {
+  display: block;
+  width: 100%;
+  margin: 2rem auto;
+}
+
+.productCard .hero img {
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+
+.productCard .productDetails ul, .productCard .productDetails ul li {
+  padding: 0;
+  margin: 0;
+}
+
+.productCard .productDetails ul li {
+  list-style-type: none;
+  margin: 0 auto 1rem;
+}
+
+.productCard .productDetails ul li h1 {
+  margin: 0;
+}
+
+.productCard .addToCart {
+  max-width: 20.0rem;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,91 @@
+.header {
+  height: 6.5rem;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header .wrap {
+  position: relative;
+  height: 100%;
+  max-width: 1450px;
+  margin: 0 auto;
+}
+
+.header .wrap .logo {
+  width: 100px;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  -webkit-transform: translateY(-50%);
+  transform: translataY(-50%);
+}
+
+.header .wrap .logo img {
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+
+.header .wrap nav {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.header .wrap nav ul, .header .wrap nav ul li {
+  padding: 0;
+  margin: 0;
+}
+
+.header .wrap nav ul {
+  text-align: center;
+}
+
+.header .wrap nav ul li {
+  display: inline-block;
+  margin: 0 1rem;
+  list-style-type: none;
+}
+
+.header .wrap nav ul li a {
+  font-size: 1.8rem;
+  line-height: 6.5rem;
+  vertical-align: middle;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.header .wrap .callToActions {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  -webkit-transform: translateY(-50%);
+  transform: translataY(-50%);
+}
+
+.header .wrap ul, .header .wrap li {
+  margin: 0;
+  padding: 0;
+}
+
+.header .wrap li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 15px;
+}
+
+.header .wrap li:last-child {
+  margin-right: 0;
+}
+
+.header .wrap li a {
+  font-size: 1.8rem;
+  line-height: 1;
+  color: block;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=styles.css.map */
